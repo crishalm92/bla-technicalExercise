@@ -1,0 +1,24 @@
+
+1) Creation of the file structure for use hexagonal architecture.
+
+2) Analyze the domain models and base use cases.
+
+3) Generate abstract classes for use cases and repository.
+
+4) Create necessary schemas for communication between services-repository-use cases
+
+5) Create repository package with necessary files. In this case I was having issues to connect with the single
+instance of the session in sqlite. In this case, SQLAlchemy doesn't create and update the schema of the database file.
+
+6) Create fastapi files w/ routers. I decided to create 3 different routers for auth, users, and tasks
+
+7) Start services implementation. These classes will implement the abstract classes defined in the domain.
+
+8) Create unit test for endpoints. For this, I created a mock repository using the same class as the repository implementation
+
+9) Create Dockerfile and compose.
+
+
+
+
+
